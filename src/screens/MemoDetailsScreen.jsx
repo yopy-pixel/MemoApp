@@ -15,12 +15,12 @@ export default function MemoDetailScreen() {
         <Text style={styles.memoDate}>2020年12月24日 10:00</Text>
       </View>
       <ScrollView style={styles.memoBody}>
-        <Text styles={styles.memoText}>
+        <Text style={styles.memoText}>
           買い物リスト
           ぎおえあjrlrtgじゃlkgjlkgじゃlkjgrぁkjgぁkjgあlk
         </Text>
       </ScrollView>
-      <CircleButton style={{ top: 160, bottom: 'auto' }}>+</CircleButton>
+      <CircleButton style={{ top: 160, bottom: 'auto' }} name="edit-2" />
     </View>
   );
 }
